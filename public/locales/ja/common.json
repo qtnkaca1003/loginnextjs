@@ -1,0 +1,13 @@
+{
+  "wellComeTo": "へようこそ",
+  "getStarted": "編集を開始する",
+  "document": "ドキュメンテーション",
+  "docContent": "Next.jsの機能とAPIに関する詳細情報を検索します。",
+  "learn": "学び",
+  "learnContent": "クイズ付きのインタラクティブコースでNext.jsについて学びましょう！",
+  "examples": "例",
+  "exContent": "ボイラープレートの例Next.jsプロジェクトを見つけてデプロイします。",
+  "deploy": "配備",
+  "deContent": "Vercelを使用してNext.jsサイトをパブリックURLに即座にデプロイします。",
+  "poweredBy": "搭載"
+}

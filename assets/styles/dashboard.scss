@@ -1,0 +1,67 @@
+main {
+    //background-image: url("/images/bg-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    height: 100vh;
+}
+.wapper__dashboard {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 400px;
+    min-height: 500px;
+    //border: 1px solid #000;
+    &__card {
+        .title {
+            font-size: 30px;
+            padding: 40px 0px 50px 0px;
+        }
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &__image {
+            padding-bottom: 20px;
+        }
+        &__name {
+            padding-bottom: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        &__id {
+            padding-bottom: 20px;
+        }
+        &__email{
+            padding-bottom: 20px;
+        }
+        &__button {
+            padding-bottom: 20px;
+            .btn_logout {
+                padding: 5px 10px !important;
+                color: #fff !important;
+                background: red !important;
+                font-weight: bold !important;
+                border: 0 !important;
+                border-radius: 5px !important;
+                cursor: pointer;
+                &:hover {
+                    background: #ff000099 !important;
+                    /* span {
+                        background: #ff000099 !important;
+                    } */
+                }
+                div {
+                    display: none;
+                }
+                span {
+                    padding: 5px 10px !important;
+                    color: #fff !important;
+                    //background: red !important;
+                    font-weight: bold !important;
+                }
+            }
+        }
+    }
+}
